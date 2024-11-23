@@ -1,0 +1,248 @@
+.elementor-kit-6 {
+    --e-global-color-512c46a: #6FBC38;
+    --e-global-color-f6c0a67: #54595F;
+    --e-global-color-98e08e7: #342C2A;
+    --e-global-color-8e0b53c: #E61E2A;
+    --e-global-color-bdaea3c: #FFFFFF;
+    --e-global-color-e15f6e2: #F5F5F5;
+    --e-global-color-687593e: #F0F7F0;
+    --e-global-typography-1311d31-font-family: "Gilroy";
+    --e-global-typography-1311d31-font-size: clamp(3rem, 2.8571rem + 0.7143vw, 4rem);
+    --e-global-typography-1311d31-font-weight: 700;
+    --e-global-typography-1311d31-line-height: 1.5em;
+    --e-global-typography-c05ba7c-font-family: "Gilroy";
+    --e-global-typography-c05ba7c-font-size: clamp(2.5rem, 2.4286rem + 0.3571vw, 3rem);
+    --e-global-typography-c05ba7c-font-weight: 700;
+    --e-global-typography-c05ba7c-font-style: normal;
+    --e-global-typography-c05ba7c-line-height: 1.5em;
+    --e-global-typography-f4b237c-font-family: "Gilroy";
+    --e-global-typography-f4b237c-font-size: clamp(2rem, 1.9286rem + 0.3571vw, 2.5rem);
+    --e-global-typography-f4b237c-font-weight: 700;
+    --e-global-typography-f4b237c-font-style: normal;
+    --e-global-typography-f4b237c-line-height: 1.5em;
+    --e-global-typography-7649d1b-font-family: "Gilroy";
+    --e-global-typography-7649d1b-font-size: clamp(1.75rem, 1.7143rem + 0.1786vw, 2rem);
+    --e-global-typography-7649d1b-font-weight: 700;
+    --e-global-typography-7649d1b-font-style: normal;
+    --e-global-typography-7649d1b-line-height: 1.5em;
+    --e-global-typography-728531e-font-family: "Gilroy";
+    --e-global-typography-728531e-font-size: clamp(1.5rem, 1.4643rem + 0.1786vw, 1.75rem);
+    --e-global-typography-728531e-font-weight: 700;
+    --e-global-typography-728531e-font-style: normal;
+    --e-global-typography-728531e-line-height: 1.5em;
+    --e-global-typography-668e1cc-font-family: "Gilroy";
+    --e-global-typography-668e1cc-font-size: clamp(1.25rem, 1.2143rem + 0.1786vw, 1.5rem);
+    --e-global-typography-668e1cc-font-weight: 700;
+    --e-global-typography-668e1cc-font-style: normal;
+    --e-global-typography-668e1cc-line-height: 1.5em;
+    --e-global-typography-47c882a-font-family: "Gilroy";
+    --e-global-typography-47c882a-font-size: clamp(1.125rem, 1.1071rem + 0.0893vw, 1.25rem);
+    --e-global-typography-47c882a-font-weight: 700;
+    --e-global-typography-47c882a-font-style: normal;
+    --e-global-typography-47c882a-line-height: 1.5em;
+    --e-global-typography-a88b4e1-font-family: "Gilroy Italic";
+    --e-global-typography-a88b4e1-font-size: clamp(1rem, 0.9821rem + 0.0893vw, 1.125rem);
+    --e-global-typography-a88b4e1-font-weight: 500;
+    --e-global-typography-a88b4e1-font-style: italic;
+    --e-global-typography-a88b4e1-line-height: 1.5em;
+    --e-global-typography-905b97c-font-family: "Gilroy";
+    --e-global-typography-905b97c-font-size: clamp(1rem, 0.9821rem + 0.0893vw, 1.125rem);
+    --e-global-typography-905b97c-font-weight: 500;
+    --e-global-typography-905b97c-line-height: 1.5em;
+    --e-global-typography-52b4400-font-family: "Gilroy";
+    --e-global-typography-52b4400-font-size: clamp(0.875rem, 0.8571rem + 0.0893vw, 1rem);
+    --e-global-typography-52b4400-font-weight: 500;
+    --e-global-typography-52b4400-line-height: 1.5em;
+    --e-global-typography-f833cb7-font-family: "Gilroy";
+    --e-global-typography-f833cb7-font-size: clamp(1rem, 0.9821rem + 0.0893vw, 1.125rem);
+    --e-global-typography-f833cb7-font-weight: 600;
+    --e-global-typography-769acfb-font-family: "Gilroy";
+    --e-global-typography-769acfb-font-size: clamp(0.875rem, 0.8571rem + 0.0893vw, 1rem);
+    --e-global-typography-769acfb-font-weight: 600;
+    --e-global-typography-769acfb-line-height: 1.5em;
+}
+
+.elementor-kit-6 e-page-transition {
+    background-color: #FFBC7D;
+}
+
+.elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: 1140px;
+}
+
+.e-con {
+    --container-max-width: 1140px;
+}
+
+.elementor-widget:not(:last-child) {
+    margin-block-end: 20px;
+}
+
+.elementor-element {
+    --widgets-spacing: 20px 20px;
+}
+
+    {}
+
+h1.entry-title {
+    display: var(--page-title-display);
+}
+
+@media(max-width:1024px) {
+    .elementor-kit-6 {
+        --e-global-typography-1311d31-font-size: clamp(2.5rem, 2.4286rem + 0.3571vw, 3rem);
+        --e-global-typography-1311d31-line-height: 1.5em;
+        --e-global-typography-c05ba7c-font-size: clamp(2rem, 1.9286rem + 0.3571vw, 2.5rem);
+        --e-global-typography-c05ba7c-line-height: 1.5em;
+        --e-global-typography-f4b237c-font-size: clamp(1.75rem, 1.7143rem + 0.1786vw, 2rem);
+        --e-global-typography-f4b237c-line-height: 1.5em;
+        --e-global-typography-7649d1b-font-size: clamp(1.5rem, 1.4643rem + 0.1786vw, 1.75rem);
+        --e-global-typography-7649d1b-line-height: 1.5em;
+        --e-global-typography-728531e-font-size: clamp(1.25rem, 1.2143rem + 0.1786vw, 1.5rem);
+        --e-global-typography-728531e-line-height: 1.5em;
+        --e-global-typography-668e1cc-font-size: clamp(1.125rem, 1.1071rem + 0.0893vw, 1.25rem);
+        --e-global-typography-668e1cc-line-height: 1.5em;
+        --e-global-typography-47c882a-font-size: clamp(1rem, 0.9821rem + 0.0893vw, 1.125rem);
+        --e-global-typography-47c882a-line-height: 1.5em;
+        --e-global-typography-a88b4e1-font-size: clamp(0.875rem, 0.8571rem + 0.0893vw, 1rem);
+        --e-global-typography-a88b4e1-line-height: 1.5em;
+        --e-global-typography-905b97c-font-size: clamp(0.875rem, 0.8571rem + 0.0893vw, 1rem);
+        --e-global-typography-905b97c-line-height: 1.5em;
+        --e-global-typography-52b4400-font-size: clamp(0.8125rem, 0.8036rem + 0.0446vw, 0.875rem);
+        --e-global-typography-52b4400-line-height: 1.5em;
+        --e-global-typography-f833cb7-font-size: clamp(0.875rem, 0.8571rem + 0.0893vw, 1rem);
+        --e-global-typography-f833cb7-line-height: 1.5em;
+        --e-global-typography-769acfb-font-size: clamp(0.8125rem, 0.8036rem + 0.0446vw, 0.875rem);
+        --e-global-typography-769acfb-line-height: 1.5em;
+    }
+
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 1024px;
+    }
+
+    .e-con {
+        --container-max-width: 1024px;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-kit-6 {
+        --e-global-typography-1311d31-font-size: clamp(2rem, 1.9286rem + 0.3571vw, 2.5rem);
+        --e-global-typography-1311d31-line-height: 1.5em;
+        --e-global-typography-c05ba7c-font-size: clamp(1.75rem, 1.7143rem + 0.1786vw, 2rem);
+        --e-global-typography-c05ba7c-line-height: 1.5em;
+        --e-global-typography-f4b237c-font-size: clamp(1.5rem, 1.4643rem + 0.1786vw, 1.75rem);
+        --e-global-typography-f4b237c-line-height: 1.5em;
+        --e-global-typography-7649d1b-font-size: clamp(1.25rem, 1.2143rem + 0.1786vw, 1.5rem);
+        --e-global-typography-7649d1b-line-height: 1.5em;
+        --e-global-typography-728531e-font-size: clamp(1.125rem, 1.1071rem + 0.0893vw, 1.25rem);
+        --e-global-typography-728531e-line-height: 1.5em;
+        --e-global-typography-668e1cc-font-size: clamp(1rem, 0.9821rem + 0.0893vw, 1.125rem);
+        --e-global-typography-668e1cc-line-height: 1.5em;
+        --e-global-typography-47c882a-font-size: clamp(0.875rem, 0.8571rem + 0.0893vw, 1rem);
+        --e-global-typography-47c882a-line-height: 1.5em;
+        --e-global-typography-a88b4e1-font-size: clamp(0.8125rem, 0.8036rem + 0.0446vw, 0.875rem);
+        --e-global-typography-a88b4e1-line-height: 1.5em;
+        --e-global-typography-905b97c-font-size: clamp(0.8125rem, 0.8036rem + 0.0446vw, 0.875rem);
+        --e-global-typography-905b97c-line-height: 1.5em;
+        --e-global-typography-52b4400-font-size: clamp(0.75rem, 0.7411rem + 0.0446vw, 0.8125rem);
+        --e-global-typography-52b4400-line-height: 1.5em;
+        --e-global-typography-f833cb7-font-size: clamp(0.8125rem, 0.8036rem + 0.0446vw, 0.875rem);
+        --e-global-typography-f833cb7-line-height: 1.5em;
+        --e-global-typography-769acfb-font-size: clamp(0.75rem, 0.7411rem + 0.0446vw, 0.8125rem);
+        --e-global-typography-769acfb-line-height: 1.5em;
+    }
+
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 767px;
+    }
+
+    .e-con {
+        --container-max-width: 767px;
+    }
+}
+
+/* Start Custom Fonts CSS */
+@font-face {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-display: auto;
+    src: url('https://unidemo.top/wp-content/uploads/2024/10/SVN-Gilroy-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-display: auto;
+    src: url('https://unidemo.top/wp-content/uploads/2024/10/SVN-Gilroy-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-display: auto;
+    src: url('https://unidemo.top/wp-content/uploads/2024/10/SVN-Gilroy-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-display: auto;
+    src: url('https://unidemo.top/wp-content/uploads/2024/10/SVN-Gilroy-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-display: auto;
+    src: url('https://unidemo.top/wp-content/uploads/2024/10/SVN-Gilroy-XBold.ttf') format('truetype');
+}
+
+/* End Custom Fonts CSS */
+/* Start Custom Fonts CSS */
+@font-face {
+    font-family: 'Gilroy Italic';
+    font-style: normal;
+    font-weight: 400;
+    font-display: auto;
+    src: url('https://unidemo.top/wp-content/uploads/2024/10/SVN-Gilroy-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy Italic';
+    font-style: normal;
+    font-weight: 500;
+    font-display: auto;
+    src: url('https://unidemo.top/wp-content/uploads/2024/10/SVN-Gilroy-Medium-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy Italic';
+    font-style: normal;
+    font-weight: 600;
+    font-display: auto;
+    src: url('https://unidemo.top/wp-content/uploads/2024/10/SVN-Gilroy-SemiBold-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy Italic';
+    font-style: normal;
+    font-weight: 700;
+    font-display: auto;
+    src: url('https://unidemo.top/wp-content/uploads/2024/10/SVN-Gilroy-Bold-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy Italic';
+    font-style: normal;
+    font-weight: 800;
+    font-display: auto;
+    src: url('https://unidemo.top/wp-content/uploads/2024/10/SVN-Gilroy-XBold-Italic.ttf') format('truetype');
+}
+
+/* End Custom Fonts CSS */

@@ -1,0 +1,20 @@
+.elementor-2 .elementor-element.elementor-element-b3bbbd7 {
+    --display: flex;
+    --gap: 0px 0px;
+    --background-transition: 0.3s;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+    --z-index: 0;
+}
+
+@media(min-width:768px) {
+    .elementor-2 .elementor-element.elementor-element-b3bbbd7 {
+        --width: 100%;
+    }
+}

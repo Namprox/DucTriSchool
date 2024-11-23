@@ -1,0 +1,353 @@
+/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@media (max-width: 991px) {
+    .header-one-left {
+        min-height: auto !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .header-one-left {
+        width: 20% !important;
+    }
+}
+
+.header-one-left {
+    float: left;
+}
+
+#logo-first a,
+#logo-second a {
+    vertical-align: middle;
+    display: block;
+}
+
+@media (max-width: 1026px) {
+    img.logo-img {
+        max-width: 100%;
+        position: relative;
+        z-index: 222;
+    }
+}
+
+a img {
+    border: 0;
+}
+
+@media (max-width: 991px) {
+    div#menu-toggle {
+        z-index: 9999;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    #menu-toggle,
+    .main-navigation .toggled .nav-menu {
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #menu-toggle {
+        cursor: pointer !important;
+    }
+}
+
+#menu-toggle {
+    width: 32px;
+    height: 20px;
+    position: relative;
+    margin: 20px auto;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+    float: right;
+    display: none;
+}
+
+#menu-toggle span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    border-radius: 3px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+}
+
+#menu-toggle span:nth-child(1) {
+    top: 8px;
+    width: 0;
+}
+
+#menu-toggle span:nth-child(2) {
+    transform: rotate(45deg);
+}
+
+#menu-toggle span:nth-child(3) {
+    transform: rotate(135deg);
+}
+
+#menu-toggle span:nth-child(4) {
+    top: 8px;
+    width: 0;
+    left: 50%;
+}
+
+#menu-toggle.open span:nth-child(1) {
+    top: 0px;
+    width: inherit;
+}
+
+#menu-toggle.open span:nth-child(2) {
+    top: 8px;
+    transform: rotate(0deg);
+}
+
+#menu-toggle.open span:nth-child(3) {
+    top: 8px;
+    transform: rotate(0deg);
+}
+
+#menu-toggle.open span:nth-child(4) {
+    top: 16px;
+    width: inherit;
+    left: auto;
+}
+
+#menu-toggle span {
+    background-color: #ff8d00;
+}
+
+@media (max-width: 991px) {
+    div#nav-wrapper {
+        position: fixed;
+        height: 100%;
+        z-index: 999;
+        left: 0;
+        padding: 80px 20px 30px;
+        top: 0;
+        margin-top: 0;
+        background: #45a041;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #site-navigation {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .main-navigation .menu {
+        height: auto !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .main-navigation ul {
+        padding-bottom: 1rem;
+        float: left;
+        width: 100%;
+    }
+}
+
+.main-navigation ul {
+    list-style: none;
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 991px) {
+    .main-navigation ul li {
+        width: 100%;
+    }
+}
+
+.main-navigation ul li {
+    padding: 0;
+}
+
+@media only screen and (max-width: 991px) {
+    .main-navigation li {
+        float: left;
+        position: relative;
+    }
+}
+
+.main-navigation li,
+.main-navigation li a {
+    transition: color .25s ease-in-out, background-color .25s ease-in-out;
+    -moz-transition: color .25s ease-in-out, background-color .25s ease-in-out;
+    -webkit-transition: color .25s ease-in-out, background-color .25s ease-in-out;
+}
+
+.main-navigation>div>ul>li>a {
+    text-align: left;
+}
+
+.main-navigation ul>li a {
+    position: relative;
+    z-index: 1;
+}
+
+.main-navigation ul li.menu-item-has-children>a:after {
+    content: '\f282';
+    font-family: bootstrap-icons;
+    display: block;
+    float: right;
+    padding-right: 15px;
+    padding-left: 6px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #fff !important;
+}
+
+.main-navigation>div>ul>li>a {
+    text-align: left;
+}
+
+@media only screen and (max-width: 991px) {
+    .main-navigation ul {
+        padding-bottom: 1rem;
+        float: left;
+        width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+    ul.sub-menu {
+        margin-left: 20px;
+    }
+}
+
+.main-navigation ul ul li {
+    padding: 0;
+}
+
+@media only screen and (max-width: 991px) {
+    .main-navigation ul li {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .main-navigation li {
+        float: left;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .main-navigation ul ul li a {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .main-navigation ul ul li a {
+        padding: 10px 12px;
+        line-height: 24px;
+        width: 100%;
+    }
+}
+
+.main-navigation ul>li a {
+    position: relative;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 991px) {
+    .main-navigation li a {
+        padding: 10px !important;
+        line-height: 24px;
+    }
+}
+
+#logo-first a,
+#logo-second a {
+    vertical-align: middle;
+    display: block;
+}
+
+@media (max-width: 991px) {
+    .header-one-left {
+        min-height: auto !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .header-one-left {
+        width: 20% !important;
+    }
+}
+
+.site {
+    position: relative;
+}
+
+@media only screen and (max-width: 991px) {
+    .main-navigation ul {
+        padding-bottom: 1rem;
+        float: left;
+        width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+    ul.sub-menu {
+        margin-left: 20px;
+    }
+}
+
+.main-navigation ul {
+    list-style: none;
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 991px) {
+
+    .main-navigation ul li:hover>ul,
+    .main-navigation ul ul li:hover>ul {
+        left: 0;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .main-navigation ul {
+        padding-bottom: 1rem;
+        float: left;
+        width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+    ul.sub-menu {
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .ztl-expand {
+        display: block !important;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100px;
+        height: 24px;
+        margin: 10px 0;
+        text-align: center;
+        z-index: 9999999;
+        cursor: pointer;
+    }
+}
